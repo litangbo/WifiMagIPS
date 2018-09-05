@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WifiMagIPS</string>
+    <string name="time_init">00:00:00</string>
+    <string name="mag_collect">地磁采集</string>
+    <string name="mag_locate">地磁定位</string>
+    <!-- 采集输入信息 -->
+    <string name="start_point">起点坐标：</string>
+    <string name="hint_sx">sx</string>
+    <string name="hint_sy">sy</string>
+    <string name="end_point">终点坐标：</string>
+    <string name="hint_ex">ex</string>
+    <string name="hint_ey">ey</string>
+    <string name="hint_freq">请输入采样频率，默认5Hz</string>
+    <!-- 操作按钮 -->
+    <string name="start_record">开始记录</string>
+    <string name="stop_record">停止记录</string>
+    <string name="get_position">获取定位</string>
+    <!-- 采集信息显示 -->
+    <string name="mag_text">"地磁信息：\nX：%1$f\nY：%2$f\nZ：%3$f\nDistance：%4$f</string>
+    <string name="dir_text">当前方位：\ncurr：%1$f\nlast：%2$f\ndiff：%3$f\nturn：%4$s</string>
+    <string name="query_info">地磁采集序列：</string>
+    <string name="query_collect">查询所有</string>
+    <string name="delete_collect">删除所有</string>
+    <string name="hint_id">id</string>
+    <string name="delete_one">删除一条</string>
+    <!-- 定位对话框 -->
+    <!--
+        常用格式:
+        %n$s ==》 n表示目前是第几个参数 （比如%1$s中的1代表第一个参数）,s代表字符串
+        %n$d ==》 n表示目前是第几个参数 （比如%2$d中的2代表第二个参数）,d代表整数
+        %n$f ==》 n表示目前是第几个参数 （比如%3$f中的3代表第三个参数）,f代表浮点数
+    -->
+    <string name="result_point">定位坐标：%1$s</string>
+    <string name="result_offset">定位误差：%1$f米</string>
+    <!-- 采样频率设置 -->
+    <string name="freq_min">1</string>
+    <string name="freq_max">10</string>
+</resources>

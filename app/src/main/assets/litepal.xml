@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!-- 指定数据库名 -->
+    <dbname value="MagCollect" />
+    <!-- 指定数据库版本 -->
+    <version value="23" />
+
+    <!-- 指定所有映射模型 -->
+    <list>
+        <mapping class="com.jc.ips.bean.MagTimeSeries"></mapping>
+        <mapping class="com.jc.ips.bean.MagValue"></mapping>
+        <!--<mapping class="com.jc.ips.bean.ResultInfo"></mapping>-->
+        <mapping class="com.jc.ips.bean.MatchResult"></mapping>
+    </list>
+
+    <!--
+       keep ：按类和字段名大小写作为表名和列名
+       upper ：将所有的类和字段名称以大写的方式作为表明和列名。
+       lower ：将所有的类和字段名称以小写的方式作为表明和列名。
+    -->
+    <!--<cases value="keep" ></cases>-->
+    <!--
+        external：如果设置external，数据库文件将储存在/storage/sdcard1/Android/data/应用包名/files/databases
+                  如果是不想被别人查看的数据，最好不要设置external
+                  在设置external的时候别忘了加权限<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+        internal：设置internal将把数据库存在应用内部文件夹，非本应用和root权限无法查看
+        不设置则默认internal
+    -->
+    <storage value="external" />
+</litepal>

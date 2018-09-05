@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!-- 指定数据库名 -->
+    <dbname value="ListTest" />
+    <!-- 指定数据库版本 -->
+    <version value="9" />
+
+    <!-- 指定所有映射模型 -->
+    <list>
+        <mapping class="com.jc.test.ListBean"></mapping>
+        <mapping class="com.jc.test.DoubleBean"></mapping>
+    </list>
+</litepal>
